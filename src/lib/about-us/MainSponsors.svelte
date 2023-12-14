@@ -1,5 +1,4 @@
 <script>
-	import DSEE from '$lib/assets/DSEE.png';
 	import Button from '$lib/components/Button.svelte';
 </script>
 
@@ -8,9 +7,9 @@
 	<div class="mt-5 lg:flex lg:justify-between">
 		<a href="https://www.deutsche-stiftung-engagement-und-ehrenamt.de/">
 			<span class="sr-only">Gefördert durch die Deutsche Stiftung für Engagement und Ehrenamt</span>
-			<img
+			<enhanced:img
 				class="w-full max-w-md"
-				src={DSEE}
+				src="$lib/assets/DSEE.png"
 				alt="Gefördert durch die Deutsche Stiftung für Engagement und Ehrenamt"
 			/>
 		</a>

@@ -32,6 +32,6 @@
 
 <style>
 	section {
-		background-image: url($lib/assets/background-read-more.png);
+		background-image: url($lib/assets/backgrounds/homepage/background-read-more.webp);
 	}
 </style>
